@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FORM</title>
+    <style>
+      label {
+        display: block;
+        margin-bottom: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <main>
+        <section>
+          <h2>Please Fill Up The Form</h2>
+          <form>
+            <label for="name"
+              >Your Name:
+              <input id="name" type="text" placeholder="Your Name" /></label
+            ><label for="email"
+              >Your Email:
+              <input id="email" type="email" placeholder="Your Email" /></label
+            ><label for="phone"></label>
+              Your Phone:<input
+                type="number"
+                id="phone"
+                placeholder="Your Phone"
+            /></label>
+            <fieldset>
+              <legend>Pick ONE</legend>
+              <label for="Ice"><input id="ice" type="radio" name="one" >Ice</label><label for="tea"><input type="radio" id="Tea" name="one"> Tea</label>
+            </fieldset><fieldset><legend>Pic One OR More Drinks</legend><label for="Clemon"><input type="checkbox" id="clemon" name="drinks">Clemon</label>
+            <label for="coke"><input type="checkbox" id="Coke" name="drinks">Coke</label></fieldset>
+            <fieldset>,<legend>Special Instruction</legend><textarea></textarea></fieldset><input type="reset" value="Reset">
+            <input type="submit" value="submit">
+          </form>
+        </section>
+      </main>
+    </header>
+  </body>
+</html>
